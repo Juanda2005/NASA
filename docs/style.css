@@ -100,6 +100,7 @@ button:hover{
 #hero{
     color: white;
     font-size: 80px;
+    margin-top: 10vh;
 }
 
 #hero h2{
