@@ -1,0 +1,257 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    text-decoration: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.conteiner{
+    max-width: 1400px;
+    margin: auto;
+}    
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    background-color: rgba(30,30,30,30);
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+
+
+.logo{
+    font-size: 32px;
+    width: 500px;
+    text-decoration: none;
+    font-weight: 700;
+    color: white
+}
+
+.navbar a {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+    color: white;
+}
+
+header img{
+    height: 100px;
+    width: 125px;
+}
+
+
+header a:hover{
+    color: blueviolet;
+}
+
+button{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: blueviolet;
+}
+
+button:hover{
+    background-color: rgb(101, 33, 165);
+    cursor: pointer;
+
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://mf.b37mrtl.ru/actualidad/public_images/2017.10/article/59eefd9ae9180ff1378b4569.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero{
+    color: white;
+    font-size: 80px;
+}
+
+#hero a{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 5px 5px;
+    border-radius: 20px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: blueviolet;
+    text-decoration: none;
+}
+
+#hero a:hover{
+    background-color: rgb(101, 33, 165);
+    cursor: pointer;
+} 
+
+#problematic h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+#problematic{
+    text-align: center;
+    background-color: white;
+}
+
+
+
+#s-part{
+    background-color: rgba(30,30,30,30);
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+#s-part{
+    padding: 10px;
+}
+
+#s-part.conteiner{
+    padding: 150px 0px;
+}
+
+#s-part h2{
+    margin-top: 0;
+}
+
+#s-part .card{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px ;
+    border-radius: 15px;
+}
+
+.img-1 {
+    width: 500px;
+}
+
+.img-2 {
+    width: 600px;
+    height: 400px;
+}
+
+.card:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://fotografias.antena3.com/clipping/cmsimages02/2022/07/05/D7383660-EF95-40BD-B0FF-CE76C4212FE0/lluvia-estrellas_97.jpg?crop=5000,2813,x0,y597&width=1600&height=900&optimize=low&format=webply");
+    background-position: center center;
+    background-size: cover;
+}
+
+.card:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://fotografias.antena3.com/clipping/cmsimages02/2022/07/05/D7383660-EF95-40BD-B0FF-CE76C4212FE0/lluvia-estrellas_97.jpg?crop=5000,2813,x0,y597&width=1600&height=900&optimize=low&format=webply");
+    background-position: center center;
+    background-size: cover;
+}
+
+.card:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://fotografias.antena3.com/clipping/cmsimages02/2022/07/05/D7383660-EF95-40BD-B0FF-CE76C4212FE0/lluvia-estrellas_97.jpg?crop=5000,2813,x0,y597&width=1600&height=900&optimize=low&format=webply");
+    background-position: center center;
+    background-size: cover;
+}
+
+.card:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://fotografias.antena3.com/clipping/cmsimages02/2022/07/05/D7383660-EF95-40BD-B0FF-CE76C4212FE0/lluvia-estrellas_97.jpg?crop=5000,2813,x0,y597&width=1600&height=900&optimize=low&format=webply");
+    background-position: center center;
+    background-size: cover;
+}
+
+.card:nth-child(5){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://fotografias.antena3.com/clipping/cmsimages02/2022/07/05/D7383660-EF95-40BD-B0FF-CE76C4212FE0/lluvia-estrellas_97.jpg?crop=5000,2813,x0,y597&width=1600&height=900&optimize=low&format=webply");
+    background-position: center center;
+    background-size: cover;
+}
+
+
+#impact h2{
+    text-align: center;
+    padding: 5px;
+}
+
+#impact{
+    text-align: center;
+    padding: 5px;
+}
+
+#real-time h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+#real-time{
+    text-align: center;
+    background-color: rgba(30,30,30,30);
+    color: white;
+    
+}
+
+
+
+
+
+
+
+
+
+
+

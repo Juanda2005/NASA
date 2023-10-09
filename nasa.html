@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>NASA problematic</title>
+    <link rel="stylesheet" href="nasa.css">
+    
+</head>
+<body>
+    <section id="title">
+        <header class="header">
+            <a href="#title" class="logo">Predicting Solar Storms: Getting Ready for Impact</a>
+            <nav class="navbar">
+                <a href="#problematic">Our problematic</a>
+                <a href="#s-part">Solution</a>
+                <a href="#impact">Purpose</a>
+            </nav>
+        </header>
+    </section>
+    
+
+
+    <section id="hero">
+        <h1>Develop the Oracle of DSCOVR</h1>
+        <a href="https://github.com" target="_blank">GitHub</a>
+    </section>
+
+    <section id="problematic">
+        <h2>What is our problem?</h2>
+        <p>In the problem to be solved, various aspects are taken into consideration, we note as the problem to be solved: the development of predictions with the raw data from the DSCOVR and the processing of these predictions that allows us to verify; 
+            an adaptive neutral network where the planetary K index (Kp) is detected, which indicates the magnitude of the geomagnetic storms detected.</p>
+    </section>
+
+    <section id="s-part">
+        <div class="conteiner">
+            <h2>Our Solution</h2>
+            <div class="-part">
+                <div class="card">
+                    <h3>Search for component h</h3>
+                    <p>When analyzing the data provided we had to identify and recognize them, we were able to obtain coordinates (vector components) in nanonoteslas and additional data, upon noticing this we carried out an investigation of how these could help us, we discovered that given the coordinates (vector components), We could make the transformation from GSE coordinates to GSM,
+                         with the objective of finding the h component (reference to the intensity or strength of the magnetic field). Having the GSM coordinates we perform the calculation of this component. <br> 
+
+                         <img class="img-1" src="https://www.researchgate.net/profile/Maria-Arecco/publication/343922205/figure/fig2/AS:929306515619842@1598575347928/Figura-2-Variacion-diaria-de-la-componente-H-del-campo-magnetico-terrestre-en-los.jpg" alt=""> <br>
+
+                          The formula to calculate the H component is as follows: <br> H=F⋅cos(D) <br>
+
+                         Where: <br>
+                        
+                         H is the horizontal component of the magnetic field. <br>
+                         
+                         F is the total intensity of the magnetic field. <br>
+                         
+                         D is the magnetic declination. <br>
+                         The total intensity of the magnetic field <br>
+                         (F) is measured in nanoteslas (nT) or gammas (γ), and the magnetic declination <br>
+                         (D) is measured in degrees. <br>
+                         Already having the h component, we took into account in order to determine how many hours to average this, the criterion (initial/basic truth) of: using a validation data set to determine the hours that provide the best predictions based on performance metrics , such as mean square error or precision. Where we analyze the behavior of the data in 3-hour averages. 
+                         When carrying out this analysis we found that 3 hours would be our best option taking into consideration our criteria.</p>
+                </div>
+                <div class="card">
+                    <h3>Deviation of the H component value of Kp</h3>
+                    <p>When wanting to obtain a result that allows us to reach a scale or level, we took into account the planetary K index (Kp), 
+                        when analyzing it we managed to find a correlation of this with the standard deviation of the h component, so we carried out 
+                        the deviation of this and we obtained the Kp value corresponding to the deviation.
+                        given the formula.</p> <br>
+
+                        <img class="img-2" src="https://auroraborealisobservatory.com/wp-content/uploads/2020/12/The-Kp-index_Side_4_Bilde_0001-1024x826.jpg.webp" alt="">
+
+
+                        
+                    </div>
+                    <div class="card">
+                        <h3>Wind flow</h3>
+                        <p>No less important, the wind flow, being directly related to the data previously presented, 
+                            was one of the data to be taken into account, and of which an average was made.</p>
+                        </div>
+                </div>
+                <div class="card">
+                    <h3>DATAset</h3>
+                    <p>Carried out and the components obtained, we would have a DATASET that includes the Kp value, the time, and the wind flow.</p>
+                </div>
+                <div class="card">
+                    <h3>Adaptive Neural Network Application</h3>
+                    <p>We highlight the adaptive neutronal network which takes the independent variable of time (date) and in development 
+                        gives us the value of the Kp, thus issuing the prediction</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="impact">
+        <h2>Objective</h2>
+        <p>Our Objective is the Development of predictions with raw data from the DSCOVR and development of an adaptive neutronal network for the prediction of Kp levels, making use of the planetary K index (Kp), 
+            data that indicates the magnitude of geomagnetic storms.</p>
+        <h2>Impact</h2>
+        <p>
+            Given all the consequences of geomagnetic storms, the benefits generated by making their predictions include: The protection of electrical infrastructure, Scientific research, 
+            Security of communication and navigation networks, Protection of space technology, Protection of satellites. 
+            Earth observation and many more, these predictions help take preventive measures and mitigate risks in a variety of areas, from critical infrastructure to space exploration. <br>
+            We hope that our solution contributes to the processing of predictions given thanks to the CSCOVR data, giving warning of these storms in time to take appropriate precautions, mitigating the risks or consequences of these on earth.
+        </p>
+    </section>
+
+    <section id="real-time">
+        <h2>Example</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque eius eligendi iure voluptas iste,
+             maiores odio maxime labore corporis molestias, sit modi aliquam facilis fuga. Nihil explicabo non repellat quibusdam!</p>
+    </section>
+
+   
+
+</body>
+</html>
